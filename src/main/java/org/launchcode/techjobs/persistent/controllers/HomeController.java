@@ -55,8 +55,7 @@ public class HomeController {
         }
         List<Skill> skillObjs = (List<Skill>) skillRepository.findAllById(skills);
         newJob.setSkills(skillObjs);
-//        jobRepository.save(newJob);
-//        employerRepository.save(employerId);
+
         return "redirect:";
     }
 
